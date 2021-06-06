@@ -12,7 +12,7 @@ let result = {};
 app.post("/getroll", async (req, res) => {
     let roll = req.body.roll;
     getroll = roll.split(",");
-    await Promise.all(
+    await Promise(
         getroll.map((e) =>
             axios
                 .get(`http://proedge.me/test.php?rollnumber=${parseInt(e)}`)
