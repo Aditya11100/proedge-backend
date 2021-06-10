@@ -1,5 +1,6 @@
 Assignment given by Proedge:
 
+Heroku link: https://proedge-assess.herokuapp.com/
 Frontend link: https://github.com/Aditya11100/proedge-frontend
 
 To run backend server on localhost:
@@ -29,3 +30,6 @@ Modules used in Reactjs:
 1. react
 2. react-dom
 3. materialize.css
+
+Test Cases for 5,6,9,12,18,20,25,30,32,36,37,38,40,42,45,47,49,50 
+pass, fail, fail, fail, fail, pass, pass, fail, pass, fail, pass, pass, pass, fail, fail, pass, pass, pass.
